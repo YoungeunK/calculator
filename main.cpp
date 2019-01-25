@@ -18,7 +18,7 @@ void calculator (void) {
 	scanf("%d", &b);
 
 	if (operator_ == 1)
-		printf("%d", add(a,b));
+		printf("%d\n", add(a,b));
 	else if (operator_ == 2)
 		printf("%d\n", mul(a,b));
 	else if (operator_ == 3)
