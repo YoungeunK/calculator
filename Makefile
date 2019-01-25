@@ -1,5 +1,5 @@
 all:
-	gcc *.c *.h
+	g++ *.cpp *.h
 clean:
 	rm -f a.out &
 	rm -f *.gch
