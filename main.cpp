@@ -1,5 +1,6 @@
 #include<stdio.h>
 #include "hello.h"
+#include "mul.h"
 
 using namespace std;
 
@@ -18,7 +19,7 @@ void calculator (void) {
 	if (operator_ == 1)
 		return;
 	else if (operator_ == 2)
-		return;
+		printf("%d\n", mul(a,b));
 	else if (operator_ == 3)
 		return;
 	
