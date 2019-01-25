@@ -1,6 +1,7 @@
 #include<stdio.h>
 #include "hello.h"
 #include "mul.h"
+#include "add.h"
 
 using namespace std;
 
@@ -17,7 +18,7 @@ void calculator (void) {
 	scanf("%d", &b);
 
 	if (operator_ == 1)
-		return;
+		printf("%d", add(a,b));
 	else if (operator_ == 2)
 		printf("%d\n", mul(a,b));
 	else if (operator_ == 3)
